@@ -3,6 +3,9 @@ const connectDB = require('./config/db');
 
 const app = express();
 
+// Use body parsers
+app.use(express.json({ extended: false }));
+
 // Connect the database
 connectDB();
 
