@@ -11,7 +11,6 @@ const PostSchema = new mongoose.Schema({
   },
   name: {
     type: String,
-    required: true,
   },
   avatar: {
     type: String,
@@ -36,7 +35,6 @@ const PostSchema = new mongoose.Schema({
       },
       name: {
         type: String,
-        required: true,
       },
       avatar: {
         type: String,
