@@ -3,12 +3,11 @@ import { Link } from 'react-router-dom';
 
 export const Login = () => {
   const [formData, setFormdata] = useState({
-    name: '',
     email: '',
     password: '',
   });
 
-  const { name, email, password } = formData;
+  const { email, password } = formData;
 
   const onChange = (e) =>
     setFormdata({
