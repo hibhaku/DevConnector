@@ -27,7 +27,7 @@ const Profiles = ({ getProfiles, profile: { profiles, loading } }) => {
                 <ProfileItem key={profile._id} profile={profile} />
               ))
             ) : (
-              <h4>Test</h4>
+              <Spinner />
             )}
           </div>
         </Fragment>
